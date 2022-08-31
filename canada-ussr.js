@@ -1,8 +1,7 @@
 const getSuperSeriesWinner = (arr) => {
     let ussr = 0;
     let canada = 0;
-    let index = 0;
-    for (index of arr) {
+    for (let index of arr) {
       if (index[0] < index[1]) {
         ussr += 1;
       } if (index[0] > index[1]) {
